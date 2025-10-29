@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "ApplyKart UI",
+    "slug": "applykart-ui",
+    "scheme": "applykart",
+    "orientation": "portrait",
+    "newArchEnabled": true,
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "ios": {
+      "supportsTablet": false
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.anonymous.applykartui"
+    },
+    "web": {
+      "bundler": "metro"
+    }
+  }
+}
